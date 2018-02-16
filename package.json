@@ -1,40 +1,40 @@
 {
-    "author": "Øyvind Håkestad <oyvindeh@fastmail.fm> (https://github.com/oyvindeh)",
-    "contributors": [
-        "Chris Adams <chris@improbable.org> (https://github.com/acdha)",
-        "Hans S. Tømmerholt <hanst@opera.com> (https://github.com/hanssto)",
-        "Crow Norlander <crowjonah@gmail.com> (https://github.com/crowjonah)"
-    ],
-    "name": "ucss",
-    "description": "Find unused CSS rules",
-    "version": "0.4.7-beta",
-    "homepage": "https://github.com/oyvindeh/ucss",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:oyvindeh/ucss"
-    },
-    "main": "./lib/ucss.js",
-    "bin": {
-        "ucss": "bin/ucss.bin.js"
-    },
-    "keywords": [
-        "css",
-        "unused"
-    ],
-    "dependencies": {
-        "optimist": "0.6.x",
-        "async": "0.9.x",
-        "cssom": "0.3.x",
-        "cheerio": "0.19.x",
-        "request": "2.55.x",
-        "q": "1.4.x"
-    },
-    "devDependencies": {
-        "buster": "0.7.x",
-        "sinon": "1.14.x"
-    },
-    "license": "BSD",
-    "engines": {
-        "node": ">=0.6"
-    }
+  "author": "Øyvind Håkestad <oyvindeh@fastmail.fm> (https://github.com/oyvindeh)",
+  "contributors": [
+    "Chris Adams <chris@improbable.org> (https://github.com/acdha)",
+    "Hans S. Tømmerholt <hanst@opera.com> (https://github.com/hanssto)",
+    "Crow Norlander <crowjonah@gmail.com> (https://github.com/crowjonah)"
+  ],
+  "name": "ucss",
+  "description": "Find unused CSS rules",
+  "version": "0.4.7-beta",
+  "homepage": "https://github.com/oyvindeh/ucss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oyvindeh/ucss"
+  },
+  "main": "./lib/ucss.js",
+  "bin": {
+    "ucss": "bin/ucss.bin.js"
+  },
+  "keywords": [
+    "css",
+    "unused"
+  ],
+  "dependencies": {
+    "optimist": "0.6.x",
+    "async": "0.9.x",
+    "cssom": "0.3.x",
+    "cheerio": "0.19.x",
+    "request": "2.82.0",
+    "q": "1.4.x"
+  },
+  "devDependencies": {
+    "buster": "0.7.x",
+    "sinon": "1.14.x"
+  },
+  "license": "BSD",
+  "engines": {
+    "node": ">=0.6"
+  }
 }
