@@ -26,7 +26,7 @@
         "async": "0.9.x",
         "cssom": "0.3.x",
         "cheerio": "0.19.x",
-        "request": "2.55.x",
+        "request": "2.81.0",
         "q": "1.4.x"
     },
     "devDependencies": {
